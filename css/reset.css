@@ -21,6 +21,7 @@
   --sm-line-height: 30px;
   --xs-line-height: 26px;
 }
+
 html,
 body,
 div,
@@ -138,7 +139,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 table {
@@ -146,8 +147,8 @@ table {
   border-spacing: 0;
 }
 img {
-  display: block;
   border: none;
+  display: block;
   max-width: 100%;
 }
 a {
